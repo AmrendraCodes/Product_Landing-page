@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 16px 54px;
+    background-color: cadetblue;
+  
+    
+}
+.logo {
+    text-align: left;
+    font-size: 45px;
+    color: white;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 10px ;
+    
+}
+
+.btn-click {
+   padding: 12px 20px;
+   background-color: #000;
+   color: #fff;
+   border: none;
+   border-radius: 41px;
+   font-size: 16px;
+   font-weight: 500;
+   cursor: pointer;
+}
+.btn-click:hover {
+    background-color: grey;
+}

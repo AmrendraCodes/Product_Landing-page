@@ -16,8 +16,6 @@ header{
     text-align: left;
     font-size: 45px;
     color: white;
-    margin-left: 12px;
-    margin-top: 10px;
 }
 header nav ul {
     display: flex;

@@ -1,21 +1,30 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
+    flex-wrap: wrap;
+    overflow: hidden;
     padding: 16px 54px;
     background-color: cadetblue;
-  
-    
+    gap: 40px;  
 }
 .logo {
     text-align: left;
     font-size: 45px;
     color: white;
+}
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+.logo a:hover {
+    color: palegreen;
 }
 header nav ul {
     display: flex;
@@ -29,6 +38,11 @@ header nav ul li a {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
     padding: 5px 10px ;
+    color: white;
+    
+}
+header nav ul li a:hover{
+    color: red;
     
 }
 
@@ -41,7 +55,11 @@ header nav ul li a {
    font-size: 16px;
    font-weight: 500;
    cursor: pointer;
+
+
 }
 .btn-click:hover {
     background-color: grey;
 }
+
+

@@ -61,33 +61,52 @@ header nav ul li a:hover{
 .btn-click:hover {
     background-color: grey;
 }
-.hero-section {
-   display: flex;
-   flex-direction: column;
-   gap: 30px;
-   padding: 40px;
-}
-/* wrapper for left & right */
-.hero-section > .hero-left,
-.hero-section > .hero-right {
-    display: inline-block;
-}
+
 .hero-section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    gap: 2px;
+    padding: 40px;
+    width: 100%;
+}
+.hero-left {
+    text-align: left;
 }
 .hero-right {
     text-align: right;
+    height: auto;
 
 }
 .hero-right img {
     max-width: 100%;
     height: auto;
 }
-.our-partner {
-  display: flex;
-  gap: 20px;
-  list-style: none;
-  padding: 0;
+.cta {
+    grid-column: 1/-1;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
+.our-partner{
+ grid-column: 1/-1;
+ font-size: 18px;
+ font-weight: 600;
+ color: #333;
+
+}
+
+
+.list-item li {
+    list-style: none;
+    text-align: left;
+}
+.list-item {
+    grid-column: 1/-1;
+    display: flex;
+    gap: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+

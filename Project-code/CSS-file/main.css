@@ -61,4 +61,33 @@ header nav ul li a:hover{
 .btn-click:hover {
     background-color: grey;
 }
+.hero-section {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   padding: 40px;
+}
+/* wrapper for left & right */
+.hero-section > .hero-left,
+.hero-section > .hero-right {
+    display: inline-block;
+}
+.hero-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+.hero-right {
+    text-align: right;
 
+}
+.hero-right img {
+    max-width: 100%;
+    height: auto;
+}
+.our-partner {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}

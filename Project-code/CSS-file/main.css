@@ -73,6 +73,12 @@ header nav ul li a:hover{
 .hero-left {
     text-align: left;
 }
+.desc {
+    display: block;
+    margin-top: 14px;
+    line-height: 1.6;
+    max-width: 560px;
+}
 .hero-right {
     text-align: right;
     height: auto;
@@ -91,22 +97,25 @@ header nav ul li a:hover{
 }
 .our-partner{
  grid-column: 1/-1;
+ display: flex;
+ align-items: center;
  font-size: 18px;
  font-weight: 600;
  color: #333;
-
+ justify-content: flex-start;
+ flex-wrap: nowrap;
+ gap: 12px;
+ white-space: nowrap;
 }
 
-
-.list-item li {
-    list-style: none;
-    text-align: left;
-}
 .list-item {
-    grid-column: 1/-1;
-    display: flex;
-    gap: 10px;
-    border-radius: 8px;
-    font-weight: 600;
+    display:flex;
+    gap: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+    white-space: nowrap;
 }
+
 
